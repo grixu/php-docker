@@ -46,7 +46,7 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Install extensions
 RUN docker-php-ext-install opcache
-RUN docker-php-ext-install pdo_mysql mbstring zip exif pcntl curl bcmath
+RUN docker-php-ext-install pdo_mysql mbstring zip exif pcntl curl bcmath gmp
 RUN docker-php-ext-install gd
 
 RUN apt-get update && \

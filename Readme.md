@@ -12,6 +12,7 @@ It's prepared Docker image of `php-fpm` in latest stable version.
 * pcntl
 * redis
 * gd
+* gmp
 * imagick
 * intl
 * zip
